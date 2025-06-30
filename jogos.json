@@ -1,0 +1,140 @@
+{
+    "modulos": {
+        "modulo 01": "Fundamentos do Desenho e Teoria da Arte",
+        "modulo 02": "Anatomia e Proporções para Personagens",
+        "modulo 03": "Design de Personagens 2D: Estilos e Técnicas",
+        "modulo 04": "Introdução à Modelagem 3D para Personagens",
+        "modulo 05": "Texturização e Materiais para Personagens 3D",
+        "modulo 06": "Rigging e Animação Básica",
+        "modulo 07": "Otimização para Jogos"
+    },
+    "modulo 01": {
+        "titulo": "Fundamentos do Desenho e Teoria da Arte",
+        "descricao": "Este módulo estabelece as bases para o desenho de personagens, cobrindo princípios artísticos essenciais. Inclui tópicos como: Linhas, formas, valores (luz e sombra), perspectiva básica, teoria das cores e composição. O foco é desenvolver um olhar crítico e habilidades manuais fundamentais.",
+        "topicos": [
+            "Linhas e formas: Exercícios para controle e precisão.",
+            "Valores: Estudo de luz e sombra para criar volume e profundidade.",
+            "Perspectiva básica: Desenho de objetos em espaços 2D e 3D simples.",
+            "Teoria das cores: Cores primárias, secundárias, terciárias, harmonias e contrastes.",
+            "Composição: Regras básicas para organizar elementos em uma imagem.",
+            "Gestalt: Compreender como o cérebro humano percebe formas e padrões."
+        ],
+        "recursos_adicionais": [
+            "Livro: 'Desenhando com o Lado Direito do Cérebro' - Betty Edwards",
+            "Livro: 'Color and Light: A Guide for the Realist Painter' - James Gurney",
+            "Livro: 'Figure Drawing: For All It's Worth' - Andrew Loomis (disponível online gratuitamente)"
+        ]
+    },
+    "prograssao": {
+        "exercicios": [
+            "Reduzir o número de polígonos de um modelo sem perder muitos detalhes.",
+            "Otimizar texturas para reduzir o tamanho do arquivo.",
+            "Criar LODs para um personagem.",
+            "Criar colliders para um personagem.",
+            "Exportar um personagem para a Unity ou Unreal Engine e testar o desempenho."
+        ],
+        "software": [
+            "Blender (gratuito)",
+            "Unity (gratuito/pago)",
+            "Unreal Engine (gratuito/pago)"
+        ]
+    },
+    "proximo modulo": "Parabéns! Você concluiu a trilha básica. Continue praticando e explorando técnicas mais avançadas!",
+    "modulo 02": {
+        "titulo": "Anatomia e Proporções para Personagens",
+        "descricao": "Aprenda a construir personagens realistas e expressivos entendendo a anatomia humana e animal. Este módulo cobre: Estrutura óssea, músculos principais, proporções do corpo humano, simplificação para estilos cartoon e estilizados. O foco é criar personagens críveis e com movimento natural.",
+        "topicos": [
+            "Estrutura óssea: Conhecendo os principais ossos e suas funções.",
+            "Músculos principais: Estudo dos músculos superficiais e sua influência na forma.",
+            "Proporções do corpo humano: Variações de proporções por idade, gênero e etnia.",
+            "Simplificação da anatomia: Criação de formas básicas para representar o corpo.",
+            "Estilização da anatomia: Como exagerar ou distorcer a anatomia para criar estilos únicos.",
+            "Anatomia animal: Introdução à anatomia de animais relevantes para o design de personagens."
+        ],
+        "recursos_adicionais": [
+            "Livro: 'Anatomy for Sculptors' - Uldis Zarins e Sandis Kondrats",
+            "Livro: 'Force: Dynamic Life Drawing for Animators' - Michael Mattesi",
+            "Livro: 'Atlas of Human Anatomy for the Artist' - Stephen Rogers Peck"
+        ]
+    },
+    "modulo 03": {
+        "titulo": "Design de Personagens 2D: Estilos e Técnicas",
+        "descricao": "Explore diferentes estilos de design de personagens 2D, aprendendo técnicas para criar personagens memoráveis e adequados para jogos. Este módulo cobre: Silhuetas, expressões faciais, linguagem corporal, design de roupas e acessórios, desenvolvimento de backstory e personalidade. O foco é criar personagens visualmente atraentes e com profundidade.",
+        "topicos": [
+            "Silhuetas: A importância da silhueta para o reconhecimento e a memorabilidade do personagem.",
+            "Expressões faciais: Transmitindo emoções e personalidade através das expressões.",
+            "Linguagem corporal: Utilizando a postura e os gestos para comunicar a atitude e o temperamento.",
+            "Design de roupas e acessórios: Criando visuais únicos e que reflitam a história e a função do personagem.",
+            "Backstory e personalidade: Desenvolvendo a história e as características do personagem para guiar o design.",
+            "Estilos de design: Estudo de diferentes estilos de design de personagens (cartoon, realista, estilizado, etc.)."
+        ],
+        "recursos_adicionais": [
+            "Livro: 'Character Design Quarterly' - Revista trimestral com entrevistas e tutoriais de artistas.",
+            "Livro: 'The Animator's Survival Kit' - Richard Williams",
+            "Análise de design de personagens em jogos e animações."
+        ]
+    },
+    "modulo 04": {
+        "titulo": "Introdução à Modelagem 3D para Personagens",
+        "descricao": "Comece a dar vida aos seus personagens no mundo 3D! Este módulo cobre: Interface e ferramentas de um software de modelagem 3D (ex: Blender), modelagem poligonal básica, escultura digital, retopologia (criação de uma malha otimizada para animação). O foco é construir modelos 3D funcionais e adequados para jogos.",
+        "topicos": [
+            "Interface e ferramentas do Blender (ou outro software de modelagem 3D): Navegação, criação de objetos, edição de vértices, arestas e faces.",
+            "Modelagem poligonal básica: Criação de formas simples a partir de primitivas (cubos, esferas, cilindros).",
+            "Escultura digital: Utilização de ferramentas de escultura para modelar formas orgânicas (ex: músculos, rostos).",
+            "Retopologia: Otimização da malha poligonal para animação e jogos.",
+            "UV Mapping: Criação de coordenadas UV para texturização."
+        ],
+        "recursos_adicionais": [
+            "Vídeos tutoriais de Blender no YouTube (ex: Blender Guru)",
+            "Curso online de modelagem 3D (ex: Udemy, Coursera, Skillshare)",
+            "Livro: 'Introducing ZBrush' - Eric Keller"
+        ]
+    },
+    "modulo 05": {
+        "titulo": "Texturização e Materiais para Personagens 3D",
+        "descricao": "Aprenda a adicionar detalhes e realismo aos seus modelos 3D com texturas e materiais. Este módulo cobre: Criação de mapas de textura (cor, normal, roughness, metallic), pintura digital de texturas, utilização de materiais PBR (Physically Based Rendering). O foco é criar personagens visualmente impressionantes e adequados para os requisitos gráficos do jogo.",
+        "topicos": [
+            "Criação de mapas de textura: Cor (base color), normal (detalhes de superfície), roughness (aspereza), metallic (metalização).",
+            "Pintura digital de texturas: Utilização de softwares como Substance Painter ou Blender para pintar texturas diretamente no modelo.",
+            "Materiais PBR: Compreendendo e utilizando materiais PBR para simular o comportamento da luz na superfície.",
+            "UV Unwrapping Avançado: Técnicas para otimizar a distribuição das texturas no modelo 3D.",
+            "Baking: Transferindo detalhes de um modelo de alta resolução para um modelo de baixa resolução."
+        ],
+        "recursos_adicionais": [
+            "Cursos online de Substance Painter (Udemy, Skillshare)",
+            "Documentação oficial de Blender sobre materiais PBR",
+            "ArtStation Learning (cursos e tutoriais de artistas)"
+        ]
+    },
+    "modulo 06": {
+        "titulo": "Rigging e Animação Básica",
+        "descricao": "Prepare seus personagens para se moverem e ganharem vida! Este módulo cobre: Criação de esqueletos (rigging), controle de movimentos (bones), animação por keyframes, princípios básicos de animação. O foco é criar animações fluidas e expressivas para jogos.",
+        "topicos": [
+            "Criação de esqueletos (rigging): Adicionando ossos ao modelo 3D e definindo a hierarquia.",
+            "Controle de movimentos (bones): Criando controles para manipular o esqueleto.",
+            "Animação por keyframes: Definindo poses-chave e interpolando o movimento entre elas.",
+            "Princípios básicos de animação: Timing, spacing, squash and stretch, anticipation, etc.",
+            "Cycles: Caminhadas, corridas, pulos e outras ações comuns."
+        ],
+        "recursos_adicionais": [
+            "Vídeos tutoriais de rigging e animação no Blender no YouTube",
+            "Livro: 'The Animator's Survival Kit' - Richard Williams",
+            "Referências de animação (ex: vídeos de pessoas e animais em movimento)."
+        ]
+    },
+    "modulo 07": {
+        "titulo": "Otimização para Jogos",
+        "descricao": "Garanta que seus personagens tenham um bom desempenho nos jogos! Este módulo cobre: Redução do número de polígonos, otimização de texturas, LODs (Levels of Detail), criação de colliders. O foco é criar personagens visualmente atraentes sem comprometer o desempenho do jogo.",
+        "topicos": [
+            "Redução do número de polígonos: Utilização de ferramentas de decimating e retopologia para reduzir a complexidade do modelo.",
+            "Otimização de texturas: Reduzindo o tamanho e a resolução das texturas.",
+            "LODs (Levels of Detail): Criando versões simplificadas do modelo para serem usadas em diferentes distâncias da câmera.",
+            "Criação de colliders: Criando formas simples para representar a colisão do personagem com o ambiente.",
+            "Exportação para game engines (Unity, Unreal Engine)."
+        ],
+        "recursos_adicionais": [
+            "Documentação oficial das game engines (Unity, Unreal Engine) sobre otimização.",
+            "Artigos e tutoriais sobre otimização de modelos 3D para jogos."
+        ]
+    }
+}

@@ -7,4 +7,5 @@ Route::get('/api', fn() => view('welcome'));
 
 Route::get('/teste', fn() => 'Hello world');
 
-Route::middleware('web')->any('/api/sendContent', [TrilhasController::class, 'generateLearningPath']);
+Route::middleware('api')
+     ->any('api/sendContent', [TrilhasController::class, 'generateLearningPath']);

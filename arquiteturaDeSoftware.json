@@ -1,0 +1,158 @@
+{
+    "modulos": {
+        "modulo 01": "Fundamentos da Arquitetura de Software",
+        "modulo 02": "Princípios de Design e Padrões Arquiteturais",
+        "modulo 03": "Estilos Arquiteturais Comuns",
+        "modulo 04": "Arquitetura de Microsserviços",
+        "modulo 05": "Arquitetura Orientada a Eventos (Event-Driven Architecture - EDA)",
+        "modulo 06": "Arquitetura de Nuvem e DevOps",
+        "modulo 07": "Qualidade e Testabilidade em Arquitetura",
+        "modulo 08": "Tópicos Avançados e Evolução da Arquitetura"
+    },
+    "modulo 01": {
+        "título": "Fundamentos da Arquitetura de Software",
+        "descrição": "Este módulo cobre os conceitos básicos da arquitetura de software, preparando o terreno para tópicos mais avançados.",
+        "tópicos": [
+            "O que é arquitetura de software? Definições, objetivos e importância.",
+            "Papéis e responsabilidades do arquiteto de software.",
+            "Atributos de qualidade (não funcionais): desempenho, escalabilidade, segurança, usabilidade, manutenibilidade, etc.",
+            "Restrições e tradeoffs na arquitetura.",
+            "Visões arquiteturais (4+1 View Model de Kruchten, C4 Model).",
+            "Conceitos de alto nível como componentes, conectores e configuração."
+        ],
+        "obras": [
+            "Software Architecture in Practice (3rd Edition) - Len Bass, Paul Clements, Rick Kazman",
+            "Fundamentals of Software Architecture - Mark Richards, Neal Ford"
+        ]
+    },
+    "prograssao": {
+        "praticar": [
+            "Explorar novas tecnologias e arquiteturas.",
+            "Participar de conferências e workshops sobre arquitetura.",
+            "Contribuir para projetos de código aberto.",
+            "Mentorear outros arquitetos de software.",
+            "Liderar iniciativas de evolução da arquitetura em projetos.",
+            "Ler artigos de pesquisa e acompanhar as tendências do mercado."
+        ]
+    },
+    "proximo modulo": "Tópicos Avançados e Evolução da Arquitetura",
+    "modulo 02": {
+        "título": "Princípios de Design e Padrões Arquiteturais",
+        "descrição": "Este módulo explora princípios de design que guiam boas decisões arquiteturais e introduz padrões arquiteturais comuns.",
+        "tópicos": [
+            "Princípios SOLID (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).",
+            "DRY (Don't Repeat Yourself), KISS (Keep It Simple, Stupid), YAGNI (You Ain't Gonna Need It).",
+            "Padrões de design GoF (Gang of Four): Strategy, Observer, Factory, etc. (ênfase no impacto arquitetural).",
+            "Padrões arquiteturais: Layered Architecture, Microkernel Architecture, Pipe and Filter Architecture.",
+            "Antipatterns e como evitá-los.",
+            "Coesão e Acoplamento."
+        ],
+        "obras": [
+            "Design Patterns: Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+            "Clean Architecture: A Craftsman's Guide to Software Structure and Design - Robert C. Martin"
+        ]
+    },
+    "modulo 03": {
+        "título": "Estilos Arquiteturais Comuns",
+        "descrição": "Este módulo apresenta os estilos arquiteturais mais utilizados no desenvolvimento de software moderno.",
+        "tópicos": [
+            "Monolítico vs. Distribuído.",
+            "Arquitetura em Camadas (Layered).",
+            "Arquitetura Cliente-Servidor.",
+            "Arquitetura Orientada a Serviços (SOA).",
+            "Arquitetura de Microsserviços (detalhada no próximo módulo).",
+            "Arquitetura Orientada a Eventos (detalhada em módulo próprio).",
+            "Arquitetura Baseada em Mensagens (Message-Driven Architecture)."
+        ],
+        "obras": [
+            "Building Microservices: Designing Fine-Grained Systems - Sam Newman",
+            "Release It!: Design and Deploy Production-Ready Software - Michael T. Nygard"
+        ]
+    },
+    "modulo 04": {
+        "título": "Arquitetura de Microsserviços",
+        "descrição": "Este módulo aprofunda o conhecimento sobre a arquitetura de microsserviços, um estilo arquitetural popular para construir aplicações escaláveis e resilientes.",
+        "tópicos": [
+            "O que são microsserviços? Características, benefícios e desafios.",
+            "Decomposição de um sistema monolítico em microsserviços.",
+            "Padrões de comunicação entre microsserviços (síncrona vs. assíncrona).",
+            "Gerenciamento de dados em microsserviços (bancos de dados por serviço, CQRS).",
+            "Observabilidade em microsserviços (logs, métricas, tracing).",
+            "Gerenciamento de configuração e deployment de microsserviços (Containers, Kubernetes).",
+            "Governança em microsserviços."
+        ],
+        "obras": [
+            "Building Microservices: Designing Fine-Grained Systems - Sam Newman",
+            "Microservices Patterns: With examples in Java - Chris Richardson"
+        ]
+    },
+    "modulo 05": {
+        "título": "Arquitetura Orientada a Eventos (Event-Driven Architecture - EDA)",
+        "descrição": "Este módulo explora a arquitetura orientada a eventos, um estilo arquitetural que permite a construção de sistemas altamente responsivos e escaláveis.",
+        "tópicos": [
+            "O que é EDA? Conceitos de eventos, produtores, consumidores e intermediários (message brokers).",
+            "Benefícios e desafios da EDA.",
+            "Padrões de EDA: Event Sourcing, CQRS (Command Query Responsibility Segregation).",
+            "Message Brokers: Kafka, RabbitMQ, ActiveMQ.",
+            "Gerenciamento de eventos (event schemas, event versioning).",
+            "Consistência eventual.",
+            "Casos de uso da EDA (sistemas de tempo real, IoT, etc.)."
+        ],
+        "obras": [
+            "Designing Event-Driven Systems: Concepts and Patterns for Streaming Services - Ben Stopford",
+            "Kafka: The Definitive Guide: Real-Time Data and Stream Processing at Scale - Neha Narkhede, Gwen Shapira, Todd Palino"
+        ]
+    },
+    "modulo 06": {
+        "título": "Arquitetura de Nuvem e DevOps",
+        "descrição": "Este módulo aborda a arquitetura de aplicações na nuvem e a cultura DevOps, que são cruciais para o sucesso de projetos modernos.",
+        "tópicos": [
+            "Conceitos de computação em nuvem (IaaS, PaaS, SaaS).",
+            "Arquiteturas de nuvem: microserviços, serverless, etc.",
+            "Design para escalabilidade, resiliência e alta disponibilidade na nuvem.",
+            "DevOps: cultura, princípios e práticas (integração contínua, entrega contínua, automação).",
+            "Infraestrutura como Código (IaC): Terraform, CloudFormation).",
+            "Monitoramento e logging em ambientes de nuvem.",
+            "Segurança na nuvem."
+        ],
+        "obras": [
+            "Cloud Native Patterns: Designing Change-Tolerant Systems - Cornelia Davis",
+            "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win - Gene Kim, Kevin Behr, George Spafford"
+        ]
+    },
+    "modulo 07": {
+        "título": "Qualidade e Testabilidade em Arquitetura",
+        "descrição": "Este módulo explora como a arquitetura pode influenciar a qualidade e testabilidade de um sistema.",
+        "tópicos": [
+            "Atributos de qualidade (desempenho, segurança, usabilidade, etc.) e como a arquitetura os afeta.",
+            "Técnicas para projetar sistemas testáveis.",
+            "Testes de unidade, integração e ponta a ponta.",
+            "Contratos e testes de contrato.",
+            "Monitoramento da qualidade em produção.",
+            "Débito técnico e como gerenciá-lo.",
+            "Análise estática e dinâmica de código."
+        ],
+        "obras": [
+            "Working Effectively with Legacy Code - Michael Feathers",
+            "Building Evolutionary Architectures: Support Constant Change - Neal Ford, Rebecca Parsons, Patrick Kua"
+        ]
+    },
+    "modulo 08": {
+        "título": "Tópicos Avançados e Evolução da Arquitetura",
+        "descrição": "Este módulo aborda tópicos avançados e a importância de manter a arquitetura evoluindo ao longo do tempo.",
+        "tópicos": [
+            "Arquiteturas serverless.",
+            "Arquiteturas baseadas em blockchain.",
+            "Inteligência Artificial e Machine Learning na arquitetura.",
+            "Arquiteturas Edge Computing.",
+            "Arquiteturas de dados (Data Lakes, Data Warehouses).",
+            "Governança da arquitetura.",
+            "Evolução da arquitetura: refatoração, migração, modernização.",
+            "Arquiteturas hexagonais (Ports and Adapters)."
+        ],
+        "obras": [
+            "Building Evolutionary Architectures: Support Constant Change - Neal Ford, Rebecca Parsons, Patrick Kua",
+            "Release It!: Design and Deploy Production-Ready Software - Michael T. Nygard"
+        ]
+    }
+}

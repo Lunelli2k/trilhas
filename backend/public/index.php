@@ -1,11 +1,5 @@
 <?php
 
-    // HEADERS CORS - DEVE VIR ANTES DE QUALQUER OUTRO CÓDIGO
-    header('Access-Control-Allow-Origin: *');
-    header('Access-Control-Allow-Methods: *');
-    header('Access-Control-Allow-Headers: *');
-    header('Access-Control-Expose-Headers: *');
-
     // Se for OPTIONS, retorna imediatamente
     if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
         header('HTTP/1.1 204 No Content');

@@ -20,7 +20,7 @@ class TrilhasController extends Controller
         $validator = Validator::make($request->all(), [
             'content' => 'required|string|min:1',
         ]);
-
+        
         if ($validator->fails()) {
             return response()->json($validator->errors(), 422);
         }
